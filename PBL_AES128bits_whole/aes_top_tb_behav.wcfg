@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="aes_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="aes_top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5,084,990 ps"></ZoomStartTime>
+      <ZoomEndTime time="5,085,003 ps"></ZoomEndTime>
+      <Cursor1Time time="5,085,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/aes_top_tb/clk_100mhz" type="logic">
+      <obj_property name="ElementShortName">clk_100mhz</obj_property>
+      <obj_property name="ObjectShortName">clk_100mhz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/dbg_key" type="array">
+      <obj_property name="ElementShortName">dbg_key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_key[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/dbg_plaintext" type="array">
+      <obj_property name="ElementShortName">dbg_plaintext[127:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_plaintext[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/dbg_ciphertext" type="array">
+      <obj_property name="ElementShortName">dbg_ciphertext[127:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_ciphertext[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/dbg_decrypted" type="array">
+      <obj_property name="ElementShortName">dbg_decrypted[127:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_decrypted[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/slow_clk" type="logic">
+      <obj_property name="ElementShortName">slow_clk</obj_property>
+      <obj_property name="ObjectShortName">slow_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/dbg_state" type="array">
+      <obj_property name="ElementShortName">dbg_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/enc_done" type="logic">
+      <obj_property name="ElementShortName">enc_done</obj_property>
+      <obj_property name="ObjectShortName">enc_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/dec_done" type="logic">
+      <obj_property name="ElementShortName">dec_done</obj_property>
+      <obj_property name="ObjectShortName">dec_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/pass_count" type="array">
+      <obj_property name="ElementShortName">pass_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pass_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/fail_count" type="array">
+      <obj_property name="ElementShortName">fail_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fail_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/done_seen" type="logic">
+      <obj_property name="ElementShortName">done_seen</obj_property>
+      <obj_property name="ObjectShortName">done_seen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/prev_state" type="array">
+      <obj_property name="ElementShortName">prev_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">prev_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/prev_done" type="logic">
+      <obj_property name="ElementShortName">prev_done</obj_property>
+      <obj_property name="ObjectShortName">prev_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/EXPECTED_CT" type="array">
+      <obj_property name="ElementShortName">EXPECTED_CT[127:0]</obj_property>
+      <obj_property name="ObjectShortName">EXPECTED_CT[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_top_tb/EXPECTED_PT" type="array">
+      <obj_property name="ElementShortName">EXPECTED_PT[127:0]</obj_property>
+      <obj_property name="ObjectShortName">EXPECTED_PT[127:0]</obj_property>
+   </wvobject>
+</wave_config>

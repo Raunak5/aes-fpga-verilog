@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../PBL_AES128bits_whole.srcs/sources_1/new/aes_top.v" \
+"../../../../PBL_AES128bits_whole.srcs/sources_1/new/cipher.v" \
+"../../../../PBL_AES128bits_whole.srcs/sources_1/new/clock_divider.v" \
+"../../../../PBL_AES128bits_whole.srcs/sources_1/new/inv_cipher.v" \
+"../../../../PBL_AES128bits_whole.srcs/sources_1/new/inv_s_box.v" \
+"../../../../PBL_AES128bits_whole.srcs/sources_1/new/key_expansion.v" \
+"../../../../PBL_AES128bits_whole.srcs/sources_1/new/s_box.v" \
+"../../../../PBL_AES128bits_whole.srcs/sim_1/new/aes_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

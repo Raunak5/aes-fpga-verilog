@@ -1,0 +1,44 @@
+Time resolution is 1 ps
+==========================================
+  AES-128  FIPS-197 Appendix B
+  KEY: 2b7e151628aed2a6abf7158809cf4f3c
+  PT:  3243f6a8885a308d313198a2e0370734
+  EXP: 3925841d02dc09fbdc118597196a0b32
+==========================================
+[100000 ns] Reset released.
+[315000 ns] state=1 enc=0 dec=0 done=0
+[555000 ns] state=2 enc=0 dec=0 done=0
+[1415000 ns] state=3 enc=0 dec=0 done=0
+[2255000 ns] state=4 enc=0 dec=0 done=0
+[2265000 ns] done asserted.
+[2275000 ns] state=0 enc=0 dec=0 done=1
+[2295000 ns] state=0 enc=0 dec=0 done=0
+
+--- TEST 1: Ciphertext ---
+Got:  2dca8634f64f62f76dc483225d4c4c23
+Exp:  3925841d02dc09fbdc118597196a0b32
+FAIL
+
+--- TEST 2: Decryption round-trip ---
+Got:  4d697477707500000000000000000000
+Exp:  3243f6a8885a308d313198a2e0370734
+FAIL
+
+--- TEST 3: LED ---
+LED: 4d  Exp: 32
+FAIL
+
+--- TEST 4: Re-trigger ---
+[2435000 ns] state=1 enc=0 dec=0 done=0
+[2675000 ns] state=2 enc=0 dec=0 done=0
+[3535000 ns] state=3 enc=0 dec=0 done=0
+[4375000 ns] state=4 enc=0 dec=0 done=0
+[4395000 ns] state=0 enc=0 dec=0 done=1
+[4415000 ns] state=0 enc=0 dec=0 done=0
+FAIL
+
+==========================================
+  PASSED 0 / 4
+  SOME TESTS FAILED
+==========================================
+$finish called at time : 4925 ns : File "C:/Users/rauna/Documents/verilog_vivado/PBL_AES128bits_whole/PBL_AES128bits_whole.srcs/sim_1/new/aes_top_tb.v" Line 96
